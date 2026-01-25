@@ -1,0 +1,225 @@
+.footer {
+    background: var(--card-bg);
+    color: var(--text-color);
+    border-top: 1px solid var(--border-color);
+    padding: 50px 0 30px;
+    transition: background 0.3s, color 0.3s;
+    height: 50vh;
+}
+
+.footer-container {
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+/* Brand text */
+.footer-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.footer-sub {
+    font-size: 0.95rem;
+    opacity: 0.85;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    max-width: 320px;
+}
+
+/* Social icons */
+.footer-social {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-social a.btn-social {
+    font-size: 1.5rem;
+}
+
+
+/* Animation */
+.footer-animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Bottom line */
+.footer-bottom {
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: 0.7;
+    border-top: 1px solid var(--border-color);
+    margin-top: 40px;
+    padding-top: 15px;
+}
+
+/* Responsive */
+.footer {
+    background: var(--card-bg);
+    color: var(--text-color);
+    border-top: 1px solid var(--border-color);
+    padding: 60px 0 30px;
+    transition: background 0.3s, color 0.3s;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* --- CONTAINER --- */
+.footer-container {
+    width: 75vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+/* --- TEXT SECTION --- */
+.footer-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.footer-sub {
+    font-size: 0.95rem;
+    opacity: 0.85;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    max-width: 340px;
+}
+
+/* --- SOCIAL ICONS --- */
+.footer-social {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.footer-social a.btn-social {
+    font-size: 1.6rem;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.footer-social a.btn-social:hover {
+    transform: translateY(-3px);
+}
+
+/* --- ANIMATION --- */
+.footer-animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-animation dotlottie-wc {
+    width: 300px !important;
+    height: 300px !important;
+}
+
+/* --- COPYRIGHT (if you add later) --- */
+.footer-bottom {
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: 0.7;
+    border-top: 1px solid var(--border-color);
+    margin-top: 40px;
+    padding-top: 15px;
+}
+
+/* === RESPONSIVE === */
+
+/* --- Medium Screens (<= 1024px) --- */
+@media (max-width: 1024px) {
+    .footer-container {
+        width: 85vw;
+        gap: 30px;
+    }
+
+    .footer-title {
+        font-size: 1.6rem;
+    }
+
+    .footer-animation dotlottie-wc {
+        width: 260px !important;
+        height: 260px !important;
+    }
+}
+
+/* --- Tablet Screens (<= 768px) --- */
+@media (max-width: 768px) {
+    .footer {
+        height: auto;              /* allow footer to expand naturally */
+        padding-bottom: 80px;      /* visible bottom space */
+    }
+
+    .footer-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        gap: 35px;
+        margin-bottom: 30px;
+    }
+
+    .footer-title {
+        font-size: 1.5rem;
+    }
+
+    .footer-sub {
+        font-size: 0.9rem;
+        max-width: 90%;
+        margin: 0 auto 20px;
+    }
+
+    .footer-social {
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .footer-animation dotlottie-wc {
+        width: 220px !important;
+        height: 220px !important;
+    }
+}
+
+
+/* --- Mobile Screens (<= 480px) --- */
+@media (max-width: 480px) {
+    .footer {
+        padding: 50px 0 25px;
+    }
+
+    .footer-container {
+        width: 90vw;
+        gap: 30px;
+    }
+
+    .footer-title {
+        font-size: 1.3rem;
+    }
+
+    .footer-sub {
+        font-size: 0.85rem;
+    }
+
+    .footer-social a.btn-social {
+        font-size: 1.4rem;
+    }
+
+    .footer-animation dotlottie-wc {
+        width: 180px !important;
+        height: 180px !important;
+    }
+}
