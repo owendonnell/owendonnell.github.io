@@ -19,7 +19,7 @@
 
 /* When scrolled, add modern rounded card look */
 .navbar.scrolled {
-    background: blur(10px);
+    background: background: rgba(255,255,255,0.6);
     border: 1px solid var(--border-color);
     border-radius: 15px;
     top: 1rem;
