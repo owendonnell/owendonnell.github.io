@@ -1,77 +1,345 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Owen Donnell | Data & Power Platform Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Owen Donnell – Power Platform Portfolio</title>
 
   <!-- SEO -->
-  <meta name="description" content="Owen Donnell — Data Manager specializing in SharePoint and Power Platform solutions." />
+  <meta name="description"
+        content="I'm Owen — a Power Platform developer and automation specialist. I design, build, and ship secure solutions using Power Apps, Power Automate, and Dataverse that reduce clicks, integrate data, and scale with your growth." />
+  <meta name="keywords"
+        content="Owen Donnell, Power Platform Developer, Power Apps, Power Automate, Dataverse, SharePoint, Power BI, Automation, Portfolio" />
+  <meta name="author" content="Owen Donnell" />
+  <meta name="theme-color" content="#0d1117" />
 
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
+  <!-- Open Graph -->
+  <meta property="og:title" content="Owen Donnell – Power Platform Portfolio" />
+  <meta property="og:description" content="Power Apps • Power Automate • Dataverse • Secure, scalable solutions." />
+  <meta property="og:image" content="./assets/preview.png" />
+  <meta property="og:url" content="https://your-domain.example/" />
+  <meta property="og:type" content="website" />
 
-<header class="hero">
-  <div class="hero-content">
-    <h1>Owen Donnell</h1>
-    <p>Data Manager · Power Platform Developer · SharePoint Specialist</p>
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Owen Donnell – Power Platform Portfolio" />
+  <meta name="twitter:description" content="Power Apps • Power Automate • Dataverse • Secure, scalable solutions." />
+  <meta name="twitter:image" content="./assets/preview.png" />
 
-    <div class="hero-actions">
-      <a href="#projects" class="btn primary">View Work</a>
-      <a href="assets/Owen_Donnell_Resume.pdf" class="btn outline" target="_blank">Download Résumé</a>
-      <button id="themeToggle" class="btn ghost" aria-label="Toggle theme">🌗</button>
+  <!-- Favicon -->
+  <link rel="icon" href="./assets/favicon.png" type="image/fonts.googleapis.com
+  <link rel="preconnect" href="link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="sheet" href="https://cdnjs.cloudflare.5.0/css/all.min.css
+
+  <!-- Styles (match Nihar’s outline if you have them) -->
+  <link rel="preload" href="./styles/style.css" as="/navbar.css
+  <link rel="stylesheet/styles/skills.css
+  ./styles/projects.css
+  <link rel="stylesheet" href="./ody>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-left">
+        <a href="#" class="logo" ariafont-weight:400">Donnell</span>
+        </a>
+      </div>
+
+      <div class="nav-links light" role="navigation" aria-label="Primary">
+        #skillsSkills</a>
+        #projectsProjects</a>
+        #servicesServices</a>
+        #contactContact</a>
+        <button id="mobile-theme-toggle" class="mobile-theme-btn" aria-label="Toggle theme">🌙</button>
+      </div>
+
+      <div class="nav-right">
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">🌙</button>
+        ./assets/Owen_Donnell_Resume.pdfResume</a>
+      </div>
+
+      <button class="burger" id="burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
     </div>
-  </div>
-</header>
+  </nav>
 
-<nav class="nav">
-  <a href="#about">About</a>
-  <a href="#projects">Projects</a>
-  <a href="#skills">Skills</a>
-  <a href="#contact">Contact</a>
-</nav>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <!-- Visual / Animation -->
+      <div class="hero-left">
+        <!-- Prefer a real headshot; Lottie is optional -->
+        <!--
+        <dotlottie-wc src="./assets/CodingWithCoffee.json" background="transparent""./assets/owen-hero.jpg" alt="Owen building a Power Platform solution"
+                <h1 class="intro-title">Hello, I'm <span class="grad">Owen</span></h1>
+        <p class="intro-text">
+          I design, build, and ship <strong>Power Platform</strong> solutions—Power Apps, Power Automate, and
+          Dataverse—that reduce clicks, integrate data, and scale with your growth. Experienced in governed,
+          secure delivery within regulated environments.
+        </p>
 
-<section id="about" class="section">
-  <h2>About</h2>
-  <p>
-    I’m a data manager with 7+ years of experience building and supporting
-    enterprise SharePoint and Power Platform solutions. My work focuses on
-    replacing legacy systems with secure, scalable internal applications that
-    improve data quality and reduce operational friction.
-  </p>
-</section>
+        <div class="social-buttons" aria-label="Social links">
+          <!-- Replace with your real profiles -->
+          <a href="https://github.com/" class="btn-social github" target="_blank" rel="noopener"       <a href="https://www.linkedin.com/" class="btn-social linkedin" target="_blank" rel="noopener"       <a href="mailto:owen@example.com" class="btn="fa-solid fa-envelope"></i>
+          </a>
+          <!-- Optional
+          <a href="https://x.com/" class="btn-social x" target="_blank" rel="noopener" aria          -->
+        </div>
 
-<section id="projects" class="section">
-  <h2>Selected Work</h2>
-  <div class="projects" id="projectGrid"></div>
-</section>
+        <!-- Stat chips (from your original draft) -->
+        <div class="stats" style="margin-top: 1rem;">
+          <div class="chip chip-green">
+            <div class="chip-num">3 weeks</div>
+            <div class="chip-sub">avg delivery time</div>
+          </div>
+          <div class="chip chip-sky">
+            <div class="chip-num">80+</div>
+            <div class="chip-sub">positive reviews</div>
+          </div>
+          <div class="chip chip-navy">
+            <div class="chip-num">650+</div>
+            <div class="chip-sub">users supported</div>
+          </div>
+        </div>
 
-<section id="skills" class="section">
-  <h2>Technical Skills</h2>
-  <div class="skills">
-    <span>Power Apps</span>
-    <span>Power Automate</span>
-    <span>Power BI</span>
-    <span>SharePoint Online</span>
-    <span>JavaScript</span>
-    <span>HTML & CSS</span>
-    <span>SQL</span>
-    <span>GitHub</span>
-  </div>
-</section>
+        <div class="hero-actions" style="margin-top: 1.25rem;">
+          #projectsSee my work</a>
+          <a class="btn"a project</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<section id="contact" class="section">
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
-  <p>GitHub: <a href="https://github.com/owendonnell" target="_blank">github.com/owendonnell</a></p>
-  <p>LinkedIn: <a href="https://linkedin.com/in/YOURPROFILE" target="_blank">linkedin.com/in/YOURPROFILE</a></p>
-</section>
+  <!-- Skills (adapted to Power Platform) -->
+  <section id="skills" class="cards skills-grid">
+    <div class="carousel-track-wrapper">
+      <h2 class="skills-heading">My Core <span class="grad">Skillset</span></h2>
 
-<footer class="footer">
-  <p>© <span id="year"></span> Owen Donnell</p>
-</footer>
+      <!-- Row 1: Power Platform -->
+      <div class="skill-row">
+        <div class="card-skill-new desc-card">
+          <h3>Power Platform</h3>
+          <p>
+            Designing secure, scalable business apps and automations with <strong>Power Apps</strong> (canvas & model‑driven),
+            <strong>Power Automate</strong>, <strong>Dataverse</strong>, and <strong>Power BI</strong>. Solution packaging, environments,
+            and ALM-aware delivery.
+          </p>
+        </div>
+        <div class="card-skill-new logo-card">
+          <div class="logo-item"><i class="fa-solid fa-tablet-screen-button"></i><span>Power Apps</span></div>
+          <div class="logo-item"><i class="fa-solid fa-rotate-right"></i><span>Power Automate</span></div>
+          <div class="logo-item"><i class="fa-solid fa-database"></i><span>Dataverse</span></div>
+          <div class="logo-item"><i class="fa-solid fa-chart-column"></i><span>Power BI</span></div>
+          <div class="logo-item"><i class="fa-solid fa-box-open"></i><span>Solutions & ALM</span></div>
+        </div>
+      </div>
 
-<script src="js/main.js"></script>
+      <!-- Row 2: Integration & DevOps -->
+      <div class="skill-row">
+        <div class="card-skill-new logo-card">
+          <div class="logo-item"><i class="fa-brands fa-microsoft"></i><span>Azure</span></div>
+          <div class="logo-item"><i class="fa-solid fa-code-branch"></i><span>Git/GitHub</span></div>
+          <div class="logo-item"><i class="fa-solid fa-sitemap"></i><span>Azure DevOps</span></div>
+          <div class="logo-item"><i class="fa-solid fa-share-nodes"></i><span>Connectors & APIs</span></div>
+        </div>
+        <div class="card-skill-new desc-card">
+          <h3>Integration & DevOps</h3>
+          <p>
+            Robust integrations with SharePoint, M365, and REST APIs. Automated deployments, solution versioning,
+            and environment strategies aligned to governance.
+          </p>
+        </div>
+      </div>
+
+      <!-- Row 3: Security & Governance -->
+      <div class="skill-row">
+        <div class="card-skill-new desc-card">
+          <h3>Security & Governance</h3>
+          <p>
+            DLP policies, role-based access, data security, and auditability. Building compliant solutions for
+            sensitive workflows and regulated teams.
+          </p>
+        </div>
+        <div class="card-skill-new logo-card">
+          <div class="logo-item"><i class="fa-solid fa-shield-halved"></i><span>DLP & Policies</span></div>
+          <div class="logo-item"><i class="fa-solid fa-user-shield"></i><span>RBAC</span></div>
+          <div class="logo-item"><i class="fa-solid fa-clipboard-check"></i><span>Compliance</span></div>
+          <div class="logo-item"><i class="fa-solid fa-lock"></i><span>Secure Data</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2 class="projects-heading">My <span class="grad">Projects</span></h2>
+
+    <div class="projects-container">
+      <!-- Project 1 -->
+      <div class="project-one">
+        <div class="project-card">
+          <div class="project-content">
+            <h3 class="project-title">Intake & Triage App</h3>
+            <a href="#" target="_blank" class="project-link" aria-labelclass="project-desc">
+              A Power Apps canvas app with Dataverse to intake, triage, and route complex requests. Role-based
+              views, SLA tracking, and automated notifications in Power Automate.
+            </p>
+          </div>
+          <div class="tech-uses">
+            <div class="skill-icon"><i class="fa-solid fa-tablet-screen-button icons"></i><span>Power Apps</span></div>
+            <div class="skill-icon"><i class="fa-solid fa-database icons"></i><span>Dataverse</span></div>
+            <div class="skill-icon"><i class="fa-solid fa-rotate-right icons"></i><span>Power Automate</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-two">
+        <div class="project-card">
+          <div class="project-content">
+            <h3 class="project-title">Document Automation</h3>
+            <a href="#" target="_blank" class="project-link" aria-label="View caseect-desc">
+              Automated document generation and approvals using SharePoint, Power Automate, and adaptive
+              cards in Teams. Audit-ready history and granular permissions.
+            </p>
+          </div>
+          <div class="tech-uses">
+            <div class="skill-icon"><i class="fa-brands fa-microsoft icons"></i><span>SharePoint</span></div>
+            <div class="skill-icon"><i class="fa-solid fa-rotate-right icons"></i><span>Power Automate</span></div>
+            <div class="skill-icon"><i class="fa-solid fa-comments icons"></i><span>Teams</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-three">
+        <div class="project-card">
+          <div class="project-content">
+            <h3 class="project-title">Operational Dashboard</h3>
+            #
+              Case Study
+            </a>
+            <p class="project-desc">
+              Power BI dashboard with RLS surfacing KPIs across multiple sources (Dataverse, SharePoint, SQL),
+              with drill-through to records in model-driven apps.
+            </p>
+          </div>
+          <div class="tech-uses">
+            <div class="skill-icon"><i class="fa-solid fa-chart-column icons"></i><span>Power BI</span></div>
+            <div class="skill-icon"><i class="fa-solid fa-database icons"></i><span>Dataverse/SQL</span></div>
+            <div class="skill-icon"><i class="fa-solid fa-diagram-project icons"></i><span>Model-driven</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project-four">
+        <div class="project-card">
+          <div class="project-content">
+            <h3 class="project-title">Incident Reporting Workflow</h3>
+            #
+              Case Study
+            </a>
+            <p class="project-desc">
+              End-to-end incident capture and remediation workflow with approvals, escalations, and secure
+              data segregation across environments.
+            </p>
+          </div>
+          <div class="tech-uses">
+            <div class="skill-icon"><i class="fa-solid fa-tablet-screen-button icons"></i><span>Power Apps</span></div>
+            <div class="skill-icon"><i class="fa-solid fa-rotate-right icons"></i><span>Power Automate</span></div>
+            <div class="skill-icon"><i class="fa-solid fa-user-shield icons"></i><span>RBAC</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section muted">
+    <div class="container">
+      <h2>Services</h2>
+      <ul class="service-list">
+        <li><strong>Power Apps</strong> – Canvas & model-driven apps</li>
+        <li><strong>Power Automate</strong> – Approvals, RPA & integrations</li>
+        <li><strong>Dataverse</strong> – Data modeling, security, and plug-ins</li>
+        <li><strong>SharePoint & Teams</strong> – Sites, portals, and collaboration</li>
+        <li><strong>Power BI</strong> – Interactive reporting with RLS</li>
+        <li><strong>Governance & ALM</strong> – Environments, solutions, DLP</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer / Contact -->
+  <footer class="footer" id="contact">
+    <div class="footer-container">
+      <!-- Left -->
+      <div class="footer-brand">
+        <h3 class="footer-title">Let’s work together</h3>
+        <p class="footer-sub">
+          Tell me about your goals and I’ll share a plan within 24 hours.
+        </p>
+
+        <div class="footer-social">
+          https://github.com/
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/" class="btn-social linkedin" target="_blank" rel=" </a>
+          mailto:owen@example.com
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+
+        <div style="margin-top: 12px;">
+          <a class="btn"ample.comEmail me</a>
+        </div>
+      </div>
+
+      <!-- Right (optional animation) -->
+      <div class="footer-animation">
+        <!--
+        <dotlottie-wc src="./assets/Meditation.json" background="transparent" speed="1"
+          style="width:ng" alt="Power Platform themed illustration"
+             style="width: 300px;ext-align:center;">
+      <span>© <span id="year"></span> Owen Donnell</span>
+      <span> • </span>
+      #Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script type="module" src="https://unpkg.com/@lottieft/dotlottie-wc.js</script>
+  <script>
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Theme toggle (prefers-color-scheme aware)
+    const themeBtn = document.getElementById('theme-toggle');
+    const mobileThemeBtn = document.getElementById('mobile-theme-toggle');
+    const applyTheme = (t) => {
+      document.documentElement.setAttribute('data-theme', t);
+      const icon = t === 'dark' ? '🌙' : '☀️';
+      if (themeBtn) themeBtn.textContent = icon;
+      if (mobileThemeBtn) mobileThemeBtn.textContent = icon;
+      localStorage.setItem('theme', t);
+    };
+    const stored = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    applyTheme(stored || (prefersDark ? 'dark' : 'light'));
+    [themeBtn, mobileThemeBtn].forEach(btn => btn && btn.addEventListener('click', () => {
+      const cur = document.documentElement.getAttribute('data-theme') || 'light';
+      applyTheme(cur === 'light' ? 'dark' : 'light');
+    }));
+
+    // Mobile nav
+    const burger = document.getElementById('burger');
+    const links = document.querySelector('.nav-links');
+    if (burger && links) {
+      burger.addEventListener('click', () => {
+        links.classList.toggle('open');
+        burger.classList.toggle('open');
+      });
+    }
+  </script>
 </body>
 </html>
